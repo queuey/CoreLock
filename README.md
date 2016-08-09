@@ -1,10 +1,25 @@
-
-
-    Charlin出框架的目标：简单、易用、实用、高度封装、绝对解耦！
-
 <br /><br />
 
 
+
+## Fork内容
+
+1. 取消NSUserDefaults存储，改用KeyChain存储手势密码。
+2. 可以存储多组手势密码。
+3. 将源代码规范化。
+
+后续继续优化方案：
+
+1. 将CoreLock提取成View，以供更多设计需求使用。
+2. 类名和方法名规范化。
+
+
+
+****
+
+
+
+    Charlin出框架的目标：简单、易用、实用、高度封装、绝对解耦！
 
 CoreLock（关注[信息公告牌](https://github.com/CharlinFeng/Show)）
 ===============
@@ -53,46 +68,45 @@ Charlin想说：
 <br /><br />
 
 #### 使用示例
-    
+
     /*
      *  设置密码
      */
     - (IBAction)setPwd:(id)sender {
-        
-        
-        BOOL hasPwd = [CLLockVC hasPwd];
+    	
+    	BOOL hasPwd = [CLLockVC hasPassWordWithUser:kUserId];
         hasPwd = NO;
-        if(hasPwd){
-            
+        if (hasPwd) {
             NSLog(@"已经设置过密码了，你可以验证或者修改密码");
-        }else{
-            
-            [CLLockVC showSettingLockVCInVC:self successBlock:^(CLLockVC *lockVC, NSString *pwd) {
-                
-                NSLog(@"密码设置成功");
-                [lockVC dismiss:1.0f];
-            }];
+        } else {
+    		[CLLockVC showUserId:kUserId settingLockVCInVC:self successBlock:^(CLLockVC *lockVC, NSString *pwd) {
+    			NSLog(@"密码设置成功");
+    			[lockVC dismiss:1.0f];
+    			NSLog(@"密码是%@",pwd);
+    		}];
         }
     }
 
+
+    
     /*
      *  验证密码
      */
     - (IBAction)verifyPwd:(id)sender {
         
-        BOOL hasPwd = [CLLockVC hasPwd];
+        BOOL hasPwd = [CLLockVC hasPassWordWithUser:kUserId];
         
-        if(!hasPwd){
+        if (!hasPwd) {
             
             NSLog(@"你还没有设置密码，请先设置密码");
-        }else {
+        } else {
             
-            [CLLockVC showVerifyLockVCInVC:self forgetPwdBlock:^{
-                NSLog(@"忘记密码");
-            } successBlock:^(CLLockVC *lockVC, NSString *pwd) {
-                NSLog(@"密码正确");
-                [lockVC dismiss:1.0f];
-            }];
+    		[CLLockVC showUserId:kUserId verifyLockVCInVC:self forgetPwdBlock:^{
+    			NSLog(@"忘记密码");
+    		} successBlock:^(CLLockVC *lockVC, NSString *pwd) {
+    			NSLog(@"密码正确");
+    			[lockVC dismiss:1.0f];
+    		}];
         }
     }
 
@@ -102,24 +116,21 @@ Charlin想说：
      */
     - (IBAction)modifyPwd:(id)sender {
         
-        BOOL hasPwd = [CLLockVC hasPwd];
+        BOOL hasPwd = [CLLockVC hasPassWordWithUser:kUserId];
         
-        if(!hasPwd){
-            
+        if (!hasPwd) {
             NSLog(@"你还没有设置密码，请先设置密码");
-            
-        }else {
-            
-            [CLLockVC showModifyLockVCInVC:self successBlock:^(CLLockVC *lockVC, NSString *pwd) {
-                
-                [lockVC dismiss:.5f];
-            }];
-        }
-
+        } else {
+    		[CLLockVC showUserId:kUserId modifyLockVCInVC:self successBlock:^(CLLockVC *lockVC, NSString *pwd) {
+    			
+    			[lockVC dismiss:.5f];
+    		}];
+    	}
     }
+    
 
 
-  
+
   <br /><br />
 
   

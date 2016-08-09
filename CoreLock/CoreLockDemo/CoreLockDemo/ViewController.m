@@ -25,8 +25,7 @@ NSString * const kUserId = @"1234";
  *  设置密码
  */
 - (IBAction)setPwd:(id)sender {
-    
-    
+	
 	BOOL hasPwd = [CLLockVC hasPassWordWithUser:kUserId];
     hasPwd = NO;
     if (hasPwd) {

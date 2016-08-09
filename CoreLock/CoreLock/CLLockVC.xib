@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <objects>
@@ -29,7 +29,7 @@
                                 <constraint firstAttribute="height" constant="30" id="P00-Xf-Ra6"/>
                             </constraints>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                             <variation key="default">
                                 <mask key="constraints">
@@ -145,10 +145,10 @@
                         </mask>
                         <mask key="constraints">
                             <exclude reference="g2Y-KT-WSf"/>
-                            <exclude reference="0qu-zZ-xdT"/>
-                            <exclude reference="kNZ-GI-kR4"/>
                             <exclude reference="IaY-IA-JJU"/>
                             <exclude reference="yrv-Sz-XB2"/>
+                            <exclude reference="0qu-zZ-xdT"/>
+                            <exclude reference="kNZ-GI-kR4"/>
                         </mask>
                     </variation>
                     <variation key="heightClass=regular-widthClass=compact">
@@ -158,26 +158,27 @@
                         </mask>
                         <mask key="constraints">
                             <include reference="g2Y-KT-WSf"/>
-                            <include reference="0qu-zZ-xdT"/>
-                            <include reference="kNZ-GI-kR4"/>
                             <include reference="IaY-IA-JJU"/>
                             <include reference="yrv-Sz-XB2"/>
+                            <include reference="0qu-zZ-xdT"/>
+                            <include reference="kNZ-GI-kR4"/>
                         </mask>
                     </variation>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yhf-NE-9vU" customClass="CLLockView">
+                <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhf-NE-9vU" customClass="CLLockView">
                     <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" secondItem="yhf-NE-9vU" secondAttribute="height" multiplier="1:1" id="o7K-dR-7NO"/>
                     </constraints>
+                    <variation key="widthClass=compact" ambiguous="YES" misplaced="YES">
+                        <rect key="frame" x="0.0" y="120" width="400" height="400"/>
+                    </variation>
                 </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="yhf-NE-9vU" secondAttribute="bottom" id="5pA-0n-g9t">
-                    <variation key="heightClass=regular-widthClass=compact" constant="60"/>
-                </constraint>
+                <constraint firstItem="yhf-NE-9vU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8TU-rC-RhC"/>
                 <constraint firstAttribute="bottom" secondItem="yhf-NE-9vU" secondAttribute="bottom" priority="200" id="8kn-4A-khk"/>
                 <constraint firstItem="VXS-Ab-5SK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CrI-ZC-vRU"/>
                 <constraint firstItem="KgF-qv-NVk" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="JbY-Jb-pAY"/>
@@ -201,12 +202,18 @@
                     <exclude reference="JbY-Jb-pAY"/>
                     <exclude reference="Yjn-Ei-j9H"/>
                     <exclude reference="i8z-EM-k1V"/>
-                    <exclude reference="8kn-4A-khk"/>
-                    <exclude reference="zPW-VN-bS3"/>
                     <exclude reference="CrI-ZC-vRU"/>
                     <exclude reference="O6r-gn-jJi"/>
                     <exclude reference="Oa9-Jc-qXi"/>
                     <exclude reference="qpQ-uF-IOs"/>
+                    <exclude reference="8TU-rC-RhC"/>
+                    <exclude reference="8kn-4A-khk"/>
+                    <exclude reference="zPW-VN-bS3"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="constraints">
+                    <exclude reference="8TU-rC-RhC"/>
                 </mask>
             </variation>
             <variation key="heightClass=regular-widthClass=compact">
@@ -218,13 +225,12 @@
                     <include reference="JbY-Jb-pAY"/>
                     <include reference="Yjn-Ei-j9H"/>
                     <include reference="i8z-EM-k1V"/>
-                    <exclude reference="5pA-0n-g9t"/>
-                    <include reference="8kn-4A-khk"/>
-                    <include reference="zPW-VN-bS3"/>
                     <include reference="CrI-ZC-vRU"/>
                     <include reference="O6r-gn-jJi"/>
                     <include reference="Oa9-Jc-qXi"/>
                     <include reference="qpQ-uF-IOs"/>
+                    <include reference="8kn-4A-khk"/>
+                    <include reference="zPW-VN-bS3"/>
                 </mask>
             </variation>
             <connections>

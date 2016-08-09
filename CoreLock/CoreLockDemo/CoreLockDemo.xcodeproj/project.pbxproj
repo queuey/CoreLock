@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CDA624B1D588D4500EE2644 /* CLLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62321D588D4500EE2644 /* CLLockVC.m */; };
+		6CDA624C1D588D4500EE2644 /* CLLockVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA62331D588D4500EE2644 /* CLLockVC.xib */; };
+		6CDA624D1D588D4500EE2644 /* CALayer+Anim.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62381D588D4500EE2644 /* CALayer+Anim.m */; };
+		6CDA624E1D588D4500EE2644 /* UIColor+YBAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA623A1D588D4500EE2644 /* UIColor+YBAdd.m */; };
+		6CDA624F1D588D4500EE2644 /* CLLockNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA623D1D588D4500EE2644 /* CLLockNavVC.m */; };
+		6CDA62501D588D4500EE2644 /* CLLockInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62401D588D4500EE2644 /* CLLockInfoView.m */; };
+		6CDA62511D588D4500EE2644 /* CLLockItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62421D588D4500EE2644 /* CLLockItemView.m */; };
+		6CDA62521D588D4500EE2644 /* CLLockLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62441D588D4500EE2644 /* CLLockLabel.m */; };
+		6CDA62531D588D4500EE2644 /* CLLockMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62461D588D4500EE2644 /* CLLockMainView.m */; };
+		6CDA62541D588D4500EE2644 /* CLLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA62481D588D4500EE2644 /* CLLockView.m */; };
+		6CDA62551D588D4500EE2644 /* YBKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA624A1D588D4500EE2644 /* YBKeychain.m */; };
+		6CE5EB621D5487A3008EE480 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5EB611D5487A3008EE480 /* main.m */; };
+		6CE5EB651D5487A3008EE480 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5EB641D5487A3008EE480 /* AppDelegate.m */; };
+		6CE5EB681D5487A3008EE480 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CE5EB671D5487A3008EE480 /* ViewController.m */; };
+		6CE5EB6B1D5487A3008EE480 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5EB691D5487A3008EE480 /* Main.storyboard */; };
+		6CE5EB6D1D5487A3008EE480 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5EB6C1D5487A3008EE480 /* Assets.xcassets */; };
+		6CE5EB701D5487A3008EE480 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CE5EB6E1D5487A3008EE480 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CDA62311D588D4500EE2644 /* CLLockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockVC.h; sourceTree = "<group>"; };
+		6CDA62321D588D4500EE2644 /* CLLockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockVC.m; sourceTree = "<group>"; };
+		6CDA62331D588D4500EE2644 /* CLLockVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CLLockVC.xib; sourceTree = "<group>"; };
+		6CDA62341D588D4500EE2644 /* CoreLockConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreLockConst.h; sourceTree = "<group>"; };
+		6CDA62371D588D4500EE2644 /* CALayer+Anim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+Anim.h"; sourceTree = "<group>"; };
+		6CDA62381D588D4500EE2644 /* CALayer+Anim.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Anim.m"; sourceTree = "<group>"; };
+		6CDA62391D588D4500EE2644 /* UIColor+YBAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+YBAdd.h"; sourceTree = "<group>"; };
+		6CDA623A1D588D4500EE2644 /* UIColor+YBAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YBAdd.m"; sourceTree = "<group>"; };
+		6CDA623C1D588D4500EE2644 /* CLLockNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockNavVC.h; sourceTree = "<group>"; };
+		6CDA623D1D588D4500EE2644 /* CLLockNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockNavVC.m; sourceTree = "<group>"; };
+		6CDA623F1D588D4500EE2644 /* CLLockInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockInfoView.h; sourceTree = "<group>"; };
+		6CDA62401D588D4500EE2644 /* CLLockInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockInfoView.m; sourceTree = "<group>"; };
+		6CDA62411D588D4500EE2644 /* CLLockItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockItemView.h; sourceTree = "<group>"; };
+		6CDA62421D588D4500EE2644 /* CLLockItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockItemView.m; sourceTree = "<group>"; };
+		6CDA62431D588D4500EE2644 /* CLLockLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockLabel.h; sourceTree = "<group>"; };
+		6CDA62441D588D4500EE2644 /* CLLockLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockLabel.m; sourceTree = "<group>"; };
+		6CDA62451D588D4500EE2644 /* CLLockMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockMainView.h; sourceTree = "<group>"; };
+		6CDA62461D588D4500EE2644 /* CLLockMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockMainView.m; sourceTree = "<group>"; };
+		6CDA62471D588D4500EE2644 /* CLLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLLockView.h; sourceTree = "<group>"; };
+		6CDA62481D588D4500EE2644 /* CLLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLLockView.m; sourceTree = "<group>"; };
+		6CDA62491D588D4500EE2644 /* YBKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YBKeychain.h; sourceTree = "<group>"; };
+		6CDA624A1D588D4500EE2644 /* YBKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YBKeychain.m; sourceTree = "<group>"; };
+		6CE5EB5D1D5487A3008EE480 /* CoreLockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreLockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE5EB611D5487A3008EE480 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6CE5EB631D5487A3008EE480 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6CE5EB641D5487A3008EE480 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CE5EB661D5487A3008EE480 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6CE5EB671D5487A3008EE480 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CE5EB6A1D5487A3008EE480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CE5EB6C1D5487A3008EE480 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CE5EB6F1D5487A3008EE480 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CE5EB711D5487A3008EE480 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CE5EB5A1D5487A3008EE480 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CDA62301D588D4500EE2644 /* CoreLock */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA62311D588D4500EE2644 /* CLLockVC.h */,
+				6CDA62321D588D4500EE2644 /* CLLockVC.m */,
+				6CDA62331D588D4500EE2644 /* CLLockVC.xib */,
+				6CDA62341D588D4500EE2644 /* CoreLockConst.h */,
+				6CDA62351D588D4500EE2644 /* Depend */,
+			);
+			name = CoreLock;
+			path = ../../CoreLock;
+			sourceTree = "<group>";
+		};
+		6CDA62351D588D4500EE2644 /* Depend */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA62361D588D4500EE2644 /* Category */,
+				6CDA623B1D588D4500EE2644 /* Controller */,
+				6CDA623E1D588D4500EE2644 /* View */,
+				6CDA62491D588D4500EE2644 /* YBKeychain.h */,
+				6CDA624A1D588D4500EE2644 /* YBKeychain.m */,
+			);
+			path = Depend;
+			sourceTree = "<group>";
+		};
+		6CDA62361D588D4500EE2644 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA62371D588D4500EE2644 /* CALayer+Anim.h */,
+				6CDA62381D588D4500EE2644 /* CALayer+Anim.m */,
+				6CDA62391D588D4500EE2644 /* UIColor+YBAdd.h */,
+				6CDA623A1D588D4500EE2644 /* UIColor+YBAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6CDA623B1D588D4500EE2644 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA623C1D588D4500EE2644 /* CLLockNavVC.h */,
+				6CDA623D1D588D4500EE2644 /* CLLockNavVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6CDA623E1D588D4500EE2644 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA623F1D588D4500EE2644 /* CLLockInfoView.h */,
+				6CDA62401D588D4500EE2644 /* CLLockInfoView.m */,
+				6CDA62411D588D4500EE2644 /* CLLockItemView.h */,
+				6CDA62421D588D4500EE2644 /* CLLockItemView.m */,
+				6CDA62431D588D4500EE2644 /* CLLockLabel.h */,
+				6CDA62441D588D4500EE2644 /* CLLockLabel.m */,
+				6CDA62451D588D4500EE2644 /* CLLockMainView.h */,
+				6CDA62461D588D4500EE2644 /* CLLockMainView.m */,
+				6CDA62471D588D4500EE2644 /* CLLockView.h */,
+				6CDA62481D588D4500EE2644 /* CLLockView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CE5EB541D5487A3008EE480 = {
+			isa = PBXGroup;
+			children = (
+				6CE5EB5F1D5487A3008EE480 /* CoreLockDemo */,
+				6CE5EB5E1D5487A3008EE480 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CE5EB5E1D5487A3008EE480 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5EB5D1D5487A3008EE480 /* CoreLockDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CE5EB5F1D5487A3008EE480 /* CoreLockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA62301D588D4500EE2644 /* CoreLock */,
+				6CE5EB631D5487A3008EE480 /* AppDelegate.h */,
+				6CE5EB641D5487A3008EE480 /* AppDelegate.m */,
+				6CE5EB661D5487A3008EE480 /* ViewController.h */,
+				6CE5EB671D5487A3008EE480 /* ViewController.m */,
+				6CE5EB691D5487A3008EE480 /* Main.storyboard */,
+				6CE5EB6C1D5487A3008EE480 /* Assets.xcassets */,
+				6CE5EB6E1D5487A3008EE480 /* LaunchScreen.storyboard */,
+				6CE5EB711D5487A3008EE480 /* Info.plist */,
+				6CE5EB601D5487A3008EE480 /* Supporting Files */,
+			);
+			path = CoreLockDemo;
+			sourceTree = "<group>";
+		};
+		6CE5EB601D5487A3008EE480 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE5EB611D5487A3008EE480 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CE5EB5C1D5487A3008EE480 /* CoreLockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CE5EB741D5487A3008EE480 /* Build configuration list for PBXNativeTarget "CoreLockDemo" */;
+			buildPhases = (
+				6CE5EB591D5487A3008EE480 /* Sources */,
+				6CE5EB5A1D5487A3008EE480 /* Frameworks */,
+				6CE5EB5B1D5487A3008EE480 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreLockDemo;
+			productName = CoreLockDemo;
+			productReference = 6CE5EB5D1D5487A3008EE480 /* CoreLockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CE5EB551D5487A3008EE480 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = queuey;
+				TargetAttributes = {
+					6CE5EB5C1D5487A3008EE480 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 6CE5EB581D5487A3008EE480 /* Build configuration list for PBXProject "CoreLockDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CE5EB541D5487A3008EE480;
+			productRefGroup = 6CE5EB5E1D5487A3008EE480 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CE5EB5C1D5487A3008EE480 /* CoreLockDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CE5EB5B1D5487A3008EE480 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CE5EB701D5487A3008EE480 /* LaunchScreen.storyboard in Resources */,
+				6CE5EB6D1D5487A3008EE480 /* Assets.xcassets in Resources */,
+				6CDA624C1D588D4500EE2644 /* CLLockVC.xib in Resources */,
+				6CE5EB6B1D5487A3008EE480 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CE5EB591D5487A3008EE480 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDA62521D588D4500EE2644 /* CLLockLabel.m in Sources */,
+				6CDA62551D588D4500EE2644 /* YBKeychain.m in Sources */,
+				6CE5EB681D5487A3008EE480 /* ViewController.m in Sources */,
+				6CE5EB651D5487A3008EE480 /* AppDelegate.m in Sources */,
+				6CDA62501D588D4500EE2644 /* CLLockInfoView.m in Sources */,
+				6CDA62531D588D4500EE2644 /* CLLockMainView.m in Sources */,
+				6CDA624E1D588D4500EE2644 /* UIColor+YBAdd.m in Sources */,
+				6CDA62541D588D4500EE2644 /* CLLockView.m in Sources */,
+				6CDA624B1D588D4500EE2644 /* CLLockVC.m in Sources */,
+				6CDA624F1D588D4500EE2644 /* CLLockNavVC.m in Sources */,
+				6CDA62511D588D4500EE2644 /* CLLockItemView.m in Sources */,
+				6CDA624D1D588D4500EE2644 /* CALayer+Anim.m in Sources */,
+				6CE5EB621D5487A3008EE480 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CE5EB691D5487A3008EE480 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE5EB6A1D5487A3008EE480 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CE5EB6E1D5487A3008EE480 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CE5EB6F1D5487A3008EE480 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CE5EB721D5487A3008EE480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6CE5EB731D5487A3008EE480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CE5EB751D5487A3008EE480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mr.Q.CoreLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6CE5EB761D5487A3008EE480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreLockDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mr.Q.CoreLockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CE5EB581D5487A3008EE480 /* Build configuration list for PBXProject "CoreLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE5EB721D5487A3008EE480 /* Debug */,
+				6CE5EB731D5487A3008EE480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CE5EB741D5487A3008EE480 /* Build configuration list for PBXNativeTarget "CoreLockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CE5EB751D5487A3008EE480 /* Debug */,
+				6CE5EB761D5487A3008EE480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CE5EB551D5487A3008EE480 /* Project object */;
+}
